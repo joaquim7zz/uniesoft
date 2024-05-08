@@ -1,0 +1,52 @@
+@media (max-width: 950px) {
+    header img {
+        width: 25%;
+    }
+
+    div button {
+        width: 60%;
+        font-size: 1em;
+    }
+
+    div button:hover {
+        width: 70%;
+        padding: 30px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 650px) {
+    header img {
+        width: 30%;
+    }
+    div button {
+        width: 70%;
+    }
+
+    div button:hover {
+        width: 80%;
+        font-size: 1.1em;
+
+    }
+}
+
+@media (max-width: 500px) {
+    header img{
+        width: 40%;
+    }
+
+    header h1 {
+        font-size: 1.7em;
+    }
+
+    div button {
+        width: 90%;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    div button:hover {
+        width: 100%;
+        font-size: 13px;
+    }
+}
