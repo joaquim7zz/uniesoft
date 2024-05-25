@@ -13,6 +13,17 @@
         padding: 30px;
         font-size: 1.2em;
     }
+
+    aside li {
+        width: 60%;
+        font-size: 1em;
+    }
+
+    aside li:hover {
+        width: 70%;
+        padding: 15px;
+        font-size: 1.2em;
+    }
 }
 
 @media (max-width: 650px) {
@@ -27,6 +38,15 @@
         width: 80%;
         font-size: 1.1em;
 
+    }
+
+    aside li {
+        width: 70%;
+    }
+
+    aside li:hover {
+        width: 80%;
+        font-size: 1.1em;
     }
 }
 
@@ -47,6 +67,19 @@
 
     div button:hover {
         width: 100%;
+        font-size: 13px;
+    }
+
+
+
+    aside li {
+        width: 90%;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    aside li:hover {
+        width: 90%;
         font-size: 13px;
     }
 }
