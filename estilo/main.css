@@ -24,6 +24,11 @@ header p {
   padding: 15px;
 }
 
+header a {
+  text-decoration: none;
+  color: white;
+}
+
 header img {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -64,60 +69,10 @@ div button:hover {
   width: 50%;
 }
 
-/*ocultar menu*/
-
-aside li {
-  margin: auto;
-  list-style-type: none;
-  font-size: 1.1em;
-  text-align: left;
-  margin-bottom: 15px;
-  padding: 15px 0px 15px 15px;
-  border-radius: 10px;
-  border: 0;
-  width: 40%;
-  background-color: white;
-}
-
-aside li:hover {
-    transition: 0.8s ease-in-out;
-    box-shadow: 8px 8px 10px 5px #041825;
-    margin-bottom: 25px;
-    padding: 25px;
-    font-size: 1.4em;
-    width: 50%;
-}
-
-.drop-menu {
-  position: relative;
-  display: none;
-}
-
-.drop-menu a {
-  border: 1px solid black;
-  border-radius: 15px;
-  color: black;
-  text-decoration: none;
-  display: block;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.drop-menu i {
+.options i {
   color: red;
 }
 
-.drop-menu a:hover {
-  transition: 0.5s ease-in-out;
-  background-color: #1d1d1dfa;
-  color: rgb(255, 255, 255);
-}
-
-
-.drop:hover .drop-menu{
-  display: block;
-}
 /*Aulas extras*/
 
 #map:hover{
