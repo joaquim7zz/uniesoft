@@ -1,62 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>download</title>
-    <link rel="shortcut icon" href="../midia/favicon.ico" type="image/x-icon" />
 
-    <script
-      src="https://kit.fontawesome.com/821c37cef2.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>download</title>
+  <link rel="shortcut icon" href="../midia/favicon.ico" type="image/x-icon" />
 
-    <style>
-      body a {
-        text-decoration: none;
-        color: wheat;
-      }
-      body {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #03598f;
-        color: rgb(248, 203, 0);
-      }
+  <script src="https://kit.fontawesome.com/821c37cef2.js" crossorigin="anonymous" defer></script>
 
-      h2 a {
-        text-decoration: none;
-        color: rgb(245, 245, 245);
-      }
-    </style>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0B1D29;
+    }
 
-  </head>
-  <body>
-    
-    <h1>Matemática aplicada à computação</h1>
-    <h2>
-      <a
-        href="https://drive.google.com/file/d/1Sn031yhtf0iiuwWRSuJkQqjJkdkaRS3d/view?usp=drive_link"
-        ><i class="fa-solid fa-download"></i> BAIXAR TEMPLATE MAPA</a
-      >
-    </h2>
-    <h2>
-      <a
-        href="https://drive.google.com/file/d/1QubyMx5wvcYe8GkKvQCzHxgqcCb7HuwI/view?usp=drive_link"
-        ><i class="fa-solid fa-download"></i> BAIXAR TEMPLATE AE1</a
-      >
-    </h2>
+    body a {
+      color: white;
+      text-decoration: none;
+      height: 100dvh;
+    }
 
-    <h1>Go - projeto de vida</h1>
-    <h2>
-      <a
-        href="https://drive.google.com/file/d/1oP0Z5LPrJ9-Ch1sm9I0Sr0cC5uZWZHN8/view?usp=drive_link"
-        ><i class="fa-solid fa-download"></i> BAIXAR TEMPLATE MAPA</a
-      >
-    </h2>
-    <!--<h2>
-    >a-download"></i>  BAIXAR  TEMPLATE AE1</a></h2>-->
-    <br />
-    <a href="../index.html"><i class="fa-solid fa-house"></i> voltar</a>
-  </body>
+    h1 {
+      color: rgb(255, 238, 0);
+    }
+
+    h2 a {
+      text-decoration: none;
+      color: rgb(245, 245, 245);
+      margin: 10px;
+    }
+
+    h2 a:hover {
+      color: red;
+    }
+
+    h3 {
+      color: white;
+    }
+
+    button {
+      font-size: 1.1em;
+      text-align: left;
+      margin-bottom: 15px;
+      padding: 15px 0px 15px 15px;
+      border-radius: 10px;
+      border: 0;
+      width: 40%;
+      background-color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      transition: 0.5s ease-in-out;
+      box-shadow: 8px 8px 10px 5px #041825;
+      margin-bottom: 25px;
+      padding: 25px;
+      font-size: 1.4em;
+      width: 50%;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Faça o download dos templates aqui</h1>
+
+  <h3>TEMPLATE DA ATIVIDADE MAPA DE ENG. SOFTWARE</h3>
+  <button onclick="window.open('../midia/TEMPLATE DA ATIVIDADE MAPA - ENGENHARIA DE SOFTWARE.docx')">
+    <i class="fa-solid fa-download"></i> FAZER DOWNLOAD
+  </button>
+
+  <h3>TEMPLATE DA ATIVIDADE 1 DE ENG. SOFTWARE</h3>
+  <button onclick="window.download('#')" disabled>
+    <i class="fa-solid fa-download"></i>
+    FAZER DOWNLOAD
+  </button>
+
+  <h3>TEMPLATE DA ATIVIDADE MAPA DE PRODUÇÃO DO CONHECIMENTO CIENTIFÍCO...</h3>
+  <button onclick="window.open('../midia/TEMPLATE DA ATIVIDADE MAPA - PRODUÇÃO DO CONHECIMENTO CIENTIFICO.docx')">
+    <i class="fa-solid fa-download"></i>
+    FAZER DOWNLOAD
+  </button>
+
+  <h3>TEMPLATE DA ATIVIDADE 1 DE PRODUÇÃO DO CONHECIMENTO CIENTIFÍCO...</h3>
+  <button onclick="window.open('#')" disabled>
+    <i class="fa-solid fa-download"></i>
+    FAZER DOWNLOAD
+  </button>
+  <br>
+  <a href="../index.html"><i class="fa-solid fa-house"></i> voltar</a>
+</body>
+
 </html>
