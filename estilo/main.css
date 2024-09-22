@@ -1,15 +1,21 @@
 @charset "UTF-8";
 
+/*Não alterar*/
 * {
   padding: 0;
   margin: 0;
 }
-
+/*Não alterar*/
+html {
+  scroll-behavior: smooth;
+}
+/*Não alterar*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #005387;
 }
 
+/*Estilo do cabeçalho (altera no site todo)*/
 header {
   text-align: center;
   margin-bottom: 15px;
@@ -36,6 +42,7 @@ header img {
   border-radius: 45%;
 }
 
+/*Aqui são os estilos dos botões (altera em todas as páginas)*/
 div {
   display: flex;
   justify-content: center;
@@ -63,11 +70,10 @@ div button:hover {
   width: 50%;
 }
 
+/*Aqui é o estilo da Agenda (não alterar)*/
 section{
 display: flex;
 justify-content: center;
-align-items: center;
-
 }
 
 article {
@@ -100,12 +106,10 @@ table {
     
   }
 
-
+/*Aqui é o estilo das aulas extras e download*/
 .options i {
   color: red;
 }
-
-/*Aulas extras*/
 
 #map:hover{
   border: none;
@@ -116,6 +120,8 @@ table {
 #map i {
   color: black;
 }
+
+/*Não alterar o footer*/
 
 footer {
   padding: 10px;
