@@ -24,6 +24,10 @@
         padding: 15px;
         font-size: 1.2em;
     }
+
+    article {
+        width: 60%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -47,6 +51,10 @@
     aside li:hover {
         width: 80%;
         font-size: 1.1em;
+    }
+
+    article {
+        width: 70%;
     }
 }
 
@@ -82,4 +90,10 @@
         width: 90%;
         font-size: 13px;
     }
+
+    article {
+        width: 90%;
+    }
+
+
 }
