@@ -13,13 +13,14 @@
   <link rel="stylesheet" href="estilo/responsive.css" />
   <!--Import-->
   <script src="https://kit.fontawesome.com/821c37cef2.js" crossorigin="anonymous" defer></script>
+  <!--Fonte-->
 </head>
 
 <body>
   <header>
     <img src="midia/logo esoft.jpeg" alt="Logo esoft" />
     <h1>Engenharia de Software</h1>
-    <p>Módulo 54/2024</p>
+    <p>Módulo 51/2025</p>
   </header>
 
   <!--Menu com links para os grupos da comunidade e aulas ao vivo-->
@@ -42,7 +43,7 @@
     </div>
 
     <div class="menu">
-      <button onclick="window.open('pag/aovivo_p1.html')">
+      <button onclick="window.open('pag/aovivo_p1.html')" disabled>
         <i class="fa-brands fa-youtube"></i>
         Playlist Algoritmos e Lógica de Programação
       </button>
@@ -50,14 +51,14 @@
 
     </div>
     <div class="menu">
-      <button onclick="window.open('pag/aovivo_p2.html')">
+      <button onclick="window.open('pag/aovivo_p2.html')" disabled>
         <i class="fa-brands fa-youtube"></i>
         Playlist Linguagem e Técnicas de Programação
       </button>
     </div>
 
     <div class="menu">
-      <button onclick="window.open('https://drive.google.com/drive/folders/1-0cASLE_B5J8d82gCBtY67Yhgt4tp5Bd')">
+      <button onclick="window.open('https://drive.google.com/drive/folders/1-0cASLE_B5J8d82gCBtY67Yhgt4tp5Bd')" disabled>
         <i class="fa-brands fa-google-drive"></i>
         Pasta compartilhada Google Drive
       </button>
@@ -68,6 +69,7 @@
         <i class="fa-solid fa-download"></i> Faça o download dos templates aqui
       </button>
     </div>
+   
     <!--Aqui termina o menu de links-->
 
 
@@ -78,8 +80,11 @@
     <!--td é utilidado para informar a atividade e a datas-->
     <!--AMBOS FICAM LADO A LADO é necessário sempre criar a tag tr para fazer uma nova linha-->
 
+    <button id="mostrarTabela"># Ver agenda
+    </button>
+
     <section>
-      <article>
+      <article class="tabela">
         <h1>Agenda</h1>
         <table>
           <tr>
@@ -88,25 +93,25 @@
           </tr>
           <tr>
             <td>Atividade de Estudo 1</td>
-            <td>03/11/2024</td>
+            <td>00/00/0000</td>
           </tr>
           <tr>
           <tr>
             <td>Atividade de Estudo 2 e 3</td>
-            <td>24/11/2024</td>
+            <td>00/00/0000</td>
           </tr>
           <tr>
           <tr>
             <td>MAPA</td>
-            <td>01/12/2024</td>
+            <td>00/00/0000</td>
           </tr>
           <tr>
             <td>Semana de Conhecimentos Gerais - SCG</td>
-            <td>10/11/2024</td>
+            <td>00/00/0000</td>
           </tr>
           <tr>
             <td>Nivelamentos de Matemática e Português</td>
-            <td>17/11/2024</td>
+            <td>00/00/0000</td>
           </tr>
 
           <!--Aqui termina a agenda-->
@@ -123,6 +128,9 @@
       <li><a href="https://github.com/joaquim7zz/esoft"> Veja no GitHub</a></li>
     </ul>
   </footer>
+
+  <script src="javaScript/agenda.js"></script>
+
 </body>
 
 </html>

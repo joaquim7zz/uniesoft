@@ -30,6 +30,11 @@
     article {
         width: 60%;
     }
+
+    #mostrarTabela {
+        border: 0;
+        width: 60%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -56,6 +61,11 @@
     }
 
     article {
+        width: 70%;
+    }
+
+    #mostrarTabela {
+        border: 0;
         width: 70%;
     }
 }
@@ -97,5 +107,9 @@
         width: 90%;
     }
 
+    #mostrarTabela {
+        border: 0;
+        width: 90%;
+    }
 
 }
