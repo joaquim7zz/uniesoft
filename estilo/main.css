@@ -62,7 +62,7 @@ div button{
 }
 
 div button:hover {
-  transition: 0.5s ease-in-out;
+  transition: ease-in-out 0.7s;
   box-shadow: 8px 8px 10px 5px #041825;
   margin-bottom: 25px;
   padding: 25px;
