@@ -17,118 +17,122 @@
 </head>
 
 <body>
-  <header>
-    <img src="midia/logo esoft.jpeg" alt="Logo esoft" />
-    <h1>Engenharia de Software</h1>
-    <p>Módulo 51/2025</p>
-  </header>
 
-  <!--Menu com links para os grupos da comunidade e aulas ao vivo-->
-  <!--Aqui começa o menu de links-->
-  <!--Usar desable para desativar os botões -->
+  <app id="app">
 
-  <main>
+    <header>
+      <img src="midia/logo esoft.jpeg" alt="Logo esoft" />
+      <h1>Engenharia de Software</h1>
+      <p>Módulo 51/2025</p>
+    </header>
 
-    <div class="menu">
-      <button onclick="window.open('https://discord.com/invite/nVCWKeSuAf')">
-        <i class="fa-brands fa-discord"></i> Participe do nosso servidor do
-        Discord
-      </button> 
-    </div>
+    <!--Menu com links para os grupos da comunidade e aulas ao vivo-->
+    <!--Aqui começa o menu de links-->
+    <!--Usar desable para desativar os botões -->
 
-    <div class="menu">
-      <button onclick="window.open('https://chat.whatsapp.com/HdbrYZOLCgrIH4Zc86YEJq')">
-        <i class="fa-brands fa-square-whatsapp"></i> Nossa comunidade no WhatsApp
+    <main>
+
+      <div class="menu">
+        <button onclick="window.open('https://discord.com/invite/nVCWKeSuAf')">
+          <i class="fa-brands fa-discord"></i> Participe do nosso servidor do
+          Discord
+        </button> 
+      </div>
+
+      <div class="menu">
+        <button onclick="window.open('https://chat.whatsapp.com/HdbrYZOLCgrIH4Zc86YEJq')">
+          <i class="fa-brands fa-square-whatsapp"></i> Nossa comunidade no WhatsApp
+        </button>
+      </div>
+
+      <div class="menu">
+        <button onclick="window.open('pag/regras.html')">
+          <i class="fa-solid fa-scale-balanced"></i> Regras de Convivência
+        </button>
+      </div>
+
+      <!-- <div class="menu">
+        <button onclick="window.open('pag/aovivo_p1.html')">
+          <i class="fa-brands fa-youtube"></i>
+          Playlist Redes de Computadores
+        </button>
+      </div> -->
+
+      <!-- </div> -->
+      <!--<div class="menu">
+        <button onclick="window.open('pag/aovivo_p2.html')" disabled>
+          <i class="fa-brands fa-youtube"></i>
+          Playlist Fundamentos e Arquiterua de Coputadores
+        </button>
+      </div>-->
+
+      <div class="menu">
+        <button onclick="window.open('https://drive.google.com/drive/folders/1-0cASLE_B5J8d82gCBtY67Yhgt4tp5Bd')">
+          <i class="fa-brands fa-google-drive"></i>
+          Pasta compartilhada Google Drive
+        </button>
+      </div>
+
+      <!-- Botão de download
+      <div class="menu">
+        <button onclick="window.open('pag/download.html')" id="map" disabled>
+          <i class="fa-solid fa-download"></i> Faça o download dos templates aqui
+        </button>
+      </div>
+    -->
+    
+      <!--Aqui termina o menu de links-->
+
+
+      <!--Aqui começa a tabela de Agenda-->
+      <!--Agenda com as datas das atividades do módulo-->
+      <!--tr cria uma linha na tabela -->
+      <!--th cria o topo da tabela - título -->
+      <!--td é utilidado para informar a atividade e a datas-->
+      <!--AMBOS FICAM LADO A LADO é necessário sempre criar a tag tr para fazer uma nova linha-->
+
+      <button id="mostrarTabela"># Ver agenda
       </button>
-    </div>
 
-    <div class="menu">
-      <button onclick="window.open('pag/regras.html')">
-        <i class="fa-solid fa-scale-balanced"></i> Regras de Convivência
-      </button>
-    </div>
+      <section>
+        <article class="tabela">
+          <h1>Agenda</h1>
+          <table>
+            <tr>
+              <th>Atividade</th>
+              <th>Prazo</th>
+            </tr>
+            <tr>
+              <td>Atividade de Estudo 1</td>
+              <td>06/04/2025</td>
+            </tr>
+            <tr>
+            <tr>
+              <td>Atividade de Estudo 2 e 3</td>
+              <td>dd/mm/aaaa</td>
+            </tr>
+            <tr>
+            <tr>
+              <td>MAPA</td>
+              <td>04/05/2025</td>
+            </tr>
+            <tr>
+              <td>Semana de Conhecimentos Gerais - SCG</td>
+              <td>dd/mm/aaaa</td>
+            </tr>
+            <tr>
+              <td>Nivelamentos de Matemática e Português</td>
+              <td>dd/mm/aaaa</td>
+            </tr>
 
-    <!-- <div class="menu">
-      <button onclick="window.open('pag/aovivo_p1.html')">
-        <i class="fa-brands fa-youtube"></i>
-        Playlist Redes de Computadores
-      </button>
-    </div> -->
+            <!--Aqui termina a agenda-->
 
-    </div>
-    <!--<div class="menu">
-      <button onclick="window.open('pag/aovivo_p2.html')" disabled>
-        <i class="fa-brands fa-youtube"></i>
-        Playlist Fundamentos e Arquiterua de Coputadores
-      </button>
-    </div>-->
+          </table>
+        </article>
+      </section>
 
-    <div class="menu">
-      <button onclick="window.open('https://drive.google.com/drive/folders/1-0cASLE_B5J8d82gCBtY67Yhgt4tp5Bd')">
-        <i class="fa-brands fa-google-drive"></i>
-        Pasta compartilhada Google Drive
-      </button>
-    </div>
-
-    <!-- Botão de download
-    <div class="menu">
-      <button onclick="window.open('pag/download.html')" id="map" disabled>
-        <i class="fa-solid fa-download"></i> Faça o download dos templates aqui
-      </button>
-    </div>
-  -->
-   
-    <!--Aqui termina o menu de links-->
-
-
-    <!--Aqui começa a tabela de Agenda-->
-    <!--Agenda com as datas das atividades do módulo-->
-    <!--tr cria uma linha na tabela -->
-    <!--th cria o topo da tabela - título -->
-    <!--td é utilidado para informar a atividade e a datas-->
-    <!--AMBOS FICAM LADO A LADO é necessário sempre criar a tag tr para fazer uma nova linha-->
-
-    <button id="mostrarTabela"># Ver agenda
-    </button>
-
-    <section>
-      <article class="tabela">
-        <h1>Agenda</h1>
-        <table>
-          <tr>
-            <th>Atividade</th>
-            <th>Prazo</th>
-          </tr>
-          <tr>
-            <td>Atividade de Estudo 1</td>
-            <td>06/04/2025</td>
-          </tr>
-          <tr>
-          <tr>
-            <td>Atividade de Estudo 2 e 3</td>
-            <td>dd/mm/aaaa</td>
-          </tr>
-          <tr>
-          <tr>
-            <td>MAPA</td>
-            <td>04/05/2025</td>
-          </tr>
-          <tr>
-            <td>Semana de Conhecimentos Gerais - SCG</td>
-            <td>dd/mm/aaaa</td>
-          </tr>
-          <tr>
-            <td>Nivelamentos de Matemática e Português</td>
-            <td>dd/mm/aaaa</td>
-          </tr>
-
-          <!--Aqui termina a agenda-->
-
-        </table>
-      </article>
-    </section>
-
-  </main>
+    </main>
+  </app>
 
   <footer>
     <p>Comunidade de Estudantes de Engenharia de Software - UniCesumar 2025/51 &copy;</p>
