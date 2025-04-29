@@ -70,6 +70,16 @@
     }
 }
 
+@media (max-width: 610px) {
+    footer {
+        height: 4em;
+    }
+    /* calcula a altura de 100% da tela e retira a altura completa do footer */
+    #app {
+        min-height: calc(100dvh - 4em - 20px);
+    }
+}
+
 @media (max-width: 500px) {
     header img{
         width: 40%;
